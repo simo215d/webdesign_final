@@ -1,0 +1,189 @@
+html{
+  height: 100%;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  background-color: #1a2278;
+}
+
+.topnav{
+  height: 75px;
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topnav img {
+  margin-left: 150px;
+  height: 40%;
+}
+
+.topnavcontent{
+  height: 75px;
+  display: flex;
+  align-items: center;
+  margin-right: 150px;
+}
+
+.topnavcontent a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+h1 {
+  margin: 0;
+  font-size: xx-large;
+  color: white
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  line-height: 25px;
+}
+
+#home_text p{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#home_maincontent{
+  margin-top: 50px;
+  /*background-color: teal;*/
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 60%;
+}
+
+#home_portfolio{
+    width: 66%;
+}
+
+#home_portfolio_container{
+  border-radius: 20px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin-right: 100px;
+  height: 100%;
+  background-color: white;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#home_portfolio_container_top{
+  background-color: #1c1c1c; 
+  height: 50px; 
+  border-top-left-radius: 20px; 
+  border-top-right-radius: 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.home_portfolio_container_top_button{
+  border-style: none;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  background-color: white; 
+}
+
+#home_text{
+  width: 33%;
+}
+
+#om_text{
+  width: 66%;
+}
+#om_text p{
+  padding-right: 100px;
+}
+
+#home_button{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: #fc8701;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#home_button:hover{
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+#planer_services {
+  margin-left: 100px;
+  width: 66%;
+}
+
+#planer_services_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.planer_service{
+  border-radius: 25px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.planer_service p, .planer_service h1{
+  color: black;
+}
+
+#om_profile_container{
+  width: 33%;
+}
+
+.om_profil_content{
+  margin-top:50px;
+  margin-bottom: 25px;
+  display: flex;
+  padding-left: 25px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 5px 5px 15px 5px #000000;
+
+}
+
+.om_profile_text{
+  margin-left: 25px;
+}
+
+.om_profil_content p{
+  color: black;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+}
+.om_profil_content h2{
+  margin: 0;
+  padding: 0;
+}
+
+.om_profil_content img{
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  padding-top: 10px;
+}
